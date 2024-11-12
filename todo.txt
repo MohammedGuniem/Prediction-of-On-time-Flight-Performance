@@ -1,0 +1,21 @@
+** Experiment 1
+- Predict the DEP_DELAY_GROUP, then 
+- multiply the predicted values by 15 minutes and 
+- calculate the evaluation metrics based on the true value in DEP_DELAY
+- At the end, compare metrics with the direct DEP_DELAY regressor and
+- Make a conclusion on which one is better
+
+** Experiment 2
+- Predict the DEP_DELAY_GROUP, then
+- Segment the dataset according to these predicted groups
+- Build and evaluate a regressor based on DEP_DELAY for each model
+- plot the results in a histogram
+- Compare to previous models and 
+- Make a conclusion on which one is better
+
+** Final Experiment
+- Pick the model with best performance
+- Tune the model and
+- Train it on training dataset 2022
+- Tested on testing dataset 2023
+
