@@ -4,14 +4,17 @@
 - calculate the evaluation metrics based on the true value in DEP_DELAY
 - At the end, compare metrics with the direct DEP_DELAY regressor and
 - Make a conclusion on which one is better
+--> Done: looks slightly better with mixed regressor
 
 ** Experiment 2
 - Predict the DEP_DELAY_GROUP, then
-- Segment the dataset according to these predicted groups
-- Build and evaluate a regressor based on DEP_DELAY for each model
+- Segment the training dataset according to these predicted groups
+- Build and evaluate a regressor with DEP_DELAY as for each group
+- Evaluate the results
 - plot the results in a histogram
 - Compare to previous models and 
 - Make a conclusion on which one is better
+--> Done:  looks slightly better than all other developed models before
 
 ** Final Experiment
 - Pick the model with best performance
