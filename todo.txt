@@ -7,14 +7,12 @@
 --> Done: looks slightly better with mixed regressor
 
 ** Experiment 2
-- Predict the DEP_DELAY_GROUP, then
-- Segment the training dataset according to these predicted groups
-- Build and evaluate a regressor with DEP_DELAY as for each group
-- Evaluate the results
-- plot the results in a histogram
-- Compare to previous models and 
+- replace all delays larget than 180 minutes with the mean of delays larger than 180
+- replace all early departure lower than -120 with the mean of delays lower than 120
+- Train an xgboost regressor based on DEP_DELAY
+- Evaluate 
 - Make a conclusion on which one is better
---> Done:  looks slightly better than all other developed models before
+
 
 ** Final Experiment
 - Pick the model with best performance
