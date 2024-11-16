@@ -12,11 +12,12 @@
 - Train an xgboost regressor based on DEP_DELAY
 - Evaluate 
 - Make a conclusion on which one is better
-
+--> done
 
 ** Final Experiment
 - Pick the model with best performance
 - Tune the model and
 - Train it on training dataset 2022
 - Tested on testing dataset 2023
+--> done
 
