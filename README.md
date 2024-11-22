@@ -4,6 +4,9 @@
 ## Dataset
 The dataset of this project is to large to host on this repository, it is therefore hosted on dropbox.com as a compressed zip file, for access to this dataset on dropbox please contact the owner of this repository at mghunime@yahoo.no 
 
+You can also download this dataset directly from the source at
+https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
+
 ## Setup instructions
 
 ### A. It is recommended that you run this solution at an isolated conda environment as shown below.
