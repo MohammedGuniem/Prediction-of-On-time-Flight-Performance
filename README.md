@@ -1,4 +1,4 @@
-# Flight-Delay-Prediction
+# Prediction-of-On-time-Flight-Performance
  A project that aims to use machine learning to predict flight delay in most accurate measure
 
 ## Dataset
@@ -20,19 +20,19 @@ https://docs.anaconda.com/anaconda/install/
 
 - Create a new conda environment with python installed
 ```
-conda create --name flight-delay-prediction python=3.12.4
+conda create --name prediction-of-on-time-flight-performance python=3.12.4
 ```
 
 - Activate the conda environment
 ```
-conda activate flight-delay-prediction
+conda activate prediction-of-on-time-flight-performance
 ```
 
 ### B. Install required packages and run the notebooks in this solution
 In order to run the notebooks in this solution you can follow the step below
 - Navigate to this root directory
 ```
-cd '.\Flight-Delay-Prediction\'
+cd '.\Prediction-of-On-time-Flight-Performance\'
 ```
 
 - Install the required packages
